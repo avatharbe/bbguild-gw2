@@ -1,4 +1,5 @@
 # bbGuild - Guild Wars 2
+[![Tests](https://github.com/avatharbe/bbguild_gw2/actions/workflows/tests.yml/badge.svg)](https://github.com/avatharbe/bbguild_gw2/actions/workflows/tests.yml)
 
 Game plugin that adds Guild Wars 2 support to [bbGuild](https://github.com/avandenberghe/bbguild).
 
