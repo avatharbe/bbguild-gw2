@@ -5,12 +5,12 @@
  * Seeds Guild Wars 2 factions, classes, races, and roles
  * by calling the existing installer service.
  *
- * @package   avathar\bbguild_gw2
+ * @package   avathar\bbguildgw2
  * @copyright 2018 avathar.be
  * @license   http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
  */
 
-namespace avathar\bbguild_gw2\migrations\basics;
+namespace avathar\bbguildgw2\migrations\basics;
 
 class data extends \phpbb\db\migration\container_aware_migration
 {
@@ -80,7 +80,7 @@ class data extends \phpbb\db\migration\container_aware_migration
 
 	private function get_installer()
 	{
-		return new \avathar\bbguild_gw2\game\gw2_installer(
+		return new \avathar\bbguildgw2\game\gw2_installer(
 			$this->container->get('dbal.conn'),
 			$this->container->get('cache.driver'),
 			$this->container->get('config'),

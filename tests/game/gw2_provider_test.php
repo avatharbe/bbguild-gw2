@@ -5,11 +5,11 @@
  * @license GNU General Public License, version 2 (GPL-2.0)
  */
 
-namespace avathar\bbguild_gw2\tests\game;
+namespace avathar\bbguildgw2\tests\game;
 
 use PHPUnit\Framework\TestCase;
-use avathar\bbguild_gw2\game\gw2_provider;
-use avathar\bbguild_gw2\game\gw2_installer;
+use avathar\bbguildgw2\game\gw2_provider;
+use avathar\bbguildgw2\game\gw2_installer;
 
 class gw2_provider_test extends TestCase
 {
@@ -28,7 +28,7 @@ class gw2_provider_test extends TestCase
 			->disableOriginalConstructor()
 			->getMock();
 		$ext_manager->method('get_extension_path')
-			->willReturn('ext/avathar/bbguild_gw2/');
+			->willReturn('ext/avathar/bbguildgw2/');
 
 		$this->provider = new gw2_provider($installer, $ext_manager);
 	}
@@ -56,7 +56,7 @@ class gw2_provider_test extends TestCase
 
 	public function test_images_path(): void
 	{
-		$this->assertStringContainsString('bbguild_gw2', $this->provider->get_images_path());
+		$this->assertStringContainsString('bbguildgw2', $this->provider->get_images_path());
 		$this->assertStringEndsWith('images/', $this->provider->get_images_path());
 	}
 

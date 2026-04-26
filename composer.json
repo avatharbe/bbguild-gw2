@@ -1,5 +1,5 @@
 {
-  "name": "avathar/bbguild-gw2",
+  "name": "avathar/bbguildgw2",
   "type": "phpbb-extension",
   "description": "Guild Wars 2 game plugin for bbGuild. Provides GW2 professions, races, and factions.",
   "homepage": "https://github.com/avandenberghe/bbguild",
@@ -27,7 +27,7 @@
     "version-check": {
       "host": "www.avathar.be",
       "directory": "/versioncheck",
-      "filename": "bbguild-gw2.json",
+      "filename": "bbguildgw2.json",
       "ssl": true
     }
   }

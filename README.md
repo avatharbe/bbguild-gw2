@@ -1,5 +1,5 @@
 # bbGuild - Guild Wars 2
-[![Tests](https://github.com/avatharbe/bbguild_gw2/actions/workflows/tests.yml/badge.svg)](https://github.com/avatharbe/bbguild_gw2/actions/workflows/tests.yml)
+[![Tests](https://github.com/avatharbe/bbguildgw2/actions/workflows/tests.yml/badge.svg)](https://github.com/avatharbe/bbguildgw2/actions/workflows/tests.yml)
 
 Game plugin that adds Guild Wars 2 support to [bbGuild](https://github.com/avandenberghe/bbguild).
 
@@ -21,7 +21,7 @@ Game plugin that adds Guild Wars 2 support to [bbGuild](https://github.com/avand
 ## Installation
 
 1. Ensure bbGuild core (`avathar/bbguild`) is installed and enabled.
-2. Copy the `bbguild_gw2` folder to `/ext/avathar/bbguild_gw2/`.
+2. Copy the `bbguildgw2` folder to `/ext/avathar/bbguildgw2/`.
 3. Navigate in the ACP to `Customise -> Manage extensions`.
 4. Look for `bbGuild - Guild Wars 2` under Disabled Extensions and click `Enable`.
 5. Go to ACP > bbGuild > Games and install the **Guild Wars 2** game.
@@ -30,7 +30,7 @@ Game plugin that adds Guild Wars 2 support to [bbGuild](https://github.com/avand
 
 1. Navigate in the ACP to `Customise -> Extension Management -> Extensions`.
 2. Find `bbGuild - Guild Wars 2` under Enabled Extensions and click `Disable`.
-3. To permanently uninstall, click `Delete Data` and then delete the `/ext/avathar/bbguild_gw2` folder.
+3. To permanently uninstall, click `Delete Data` and then delete the `/ext/avathar/bbguildgw2` folder.
 
 **Note:** Disabling the extension does not delete existing guild or player data. Your roster and player records remain intact in bbGuild core.
 

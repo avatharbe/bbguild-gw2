@@ -1,16 +1,16 @@
 services:
-    avathar.bbguild_gw2.installer:
-        class: avathar\bbguild_gw2\game\gw2_installer
+    avathar.bbguildgw2.installer:
+        class: avathar\bbguildgw2\game\gw2_installer
         arguments:
             - '@dbal.conn'
             - '@cache.driver'
             - '@config'
             - '@user'
 
-    avathar.bbguild_gw2.provider:
-        class: avathar\bbguild_gw2\game\gw2_provider
+    avathar.bbguildgw2.provider:
+        class: avathar\bbguildgw2\game\gw2_provider
         arguments:
-            - '@avathar.bbguild_gw2.installer'
+            - '@avathar.bbguildgw2.installer'
             - '@ext.manager'
         tags:
             - { name: bbguild.game_provider }
