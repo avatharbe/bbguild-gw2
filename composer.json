@@ -27,7 +27,7 @@
     "version-check": {
       "host": "www.avathar.be",
       "directory": "/versioncheck",
-      "filename": "bbguild_gw2.json",
+      "filename": "bbguild-gw2.json",
       "ssl": true
     }
   }
